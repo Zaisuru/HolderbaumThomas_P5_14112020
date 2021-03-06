@@ -1,1 +1,2 @@
-# HolderbaumThomas_P5_14112020
+Projet 5 du parcours Développeur Web de Open Classrooms
+Projet 'Construisez un site e-commerce'
