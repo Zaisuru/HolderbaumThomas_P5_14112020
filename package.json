@@ -1,0 +1,22 @@
+{
+  "name": "openp5",
+  "version": "1.0.0",
+  "description": "sass for project 5 OpenClassrooms",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch front/Style/sass/main.scss:front/Style/css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zaisuru/HolderbaumThomas_P5_14112020.git"
+  },
+  "author": "T.Holderbaum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zaisuru/HolderbaumThomas_P5_14112020/issues"
+  },
+  "homepage": "https://github.com/Zaisuru/HolderbaumThomas_P5_14112020#readme",
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}

@@ -1,0 +1,34 @@
+//Declaration des src
+@import "../Utils/mixin";
+
+#index-card-body{
+  display: flex;
+  justify-content: center;
+}
+#card-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  .card {
+    @include margin(10px 10px 10px 10px);
+    @include border-radius(10px);
+    width: 300px;
+    overflow: hidden;
+    .card-img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .card-description, h3, h4 {
+      @include margin(0);
+      padding: 5px;
+
+      .card-description_footer {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

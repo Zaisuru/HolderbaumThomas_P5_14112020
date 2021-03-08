@@ -1,0 +1,16 @@
+//Declaration des mixins
+
+
+@mixin googleFonts($fonts){
+  @import url('https://fonts.googleapis.com/css2?family=#{$fonts}');
+}
+
+@mixin border-radius($degres){
+  -moz-border-radius: $degres;
+  -webkit-border-radius: $degres;
+  border-radius: $degres;
+}
+
+@mixin margin ($space){
+  margin: $space;
+}
