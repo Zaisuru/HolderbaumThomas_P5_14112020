@@ -21,14 +21,11 @@
       object-fit: cover;
     }
 
-    .card-description, h3, h4 {
+    .card-description {
       @include margin(0);
       padding: 5px;
-
-      .card-description_footer {
-        display: flex;
-        justify-content: space-between;
-      }
+      display: flex;
+      justify-content: space-between;
     }
   }
 }

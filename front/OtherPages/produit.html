@@ -2,27 +2,43 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Oriroco - produit</title>
+    <title>Oriroco - Votre panier</title>
     <meta name="description" content="">
+
+    <!--Déclaration feuille de style -->
+    <link rel="stylesheet" href="../Style/css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
 <div id="container">
     <header>
         <figure id="logo">
-            <img>
+            <img src="..\Picture\Orinoco_logo.png" alt="Logo de la société Orinoco">
+            <h1>Orinoco</h1>
         </figure>
-        <nav>
-            <ul>
-                <li>Accueil</li>
-                <li>Panier</li>
-                <li>Contact</li>
+        <nav class="top-nav">
+            <ul class="nav">
+                <li class="nav-list"><a href="#">Accueil</a></li>
+                <li class="nav-list"><a href="#">Panier</a></li>
+                <li class="nav-list"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <article>
+        <section class="product">
+            <article class="product_img">
+                <img src="..\..\back\images\vcam_1.jpg" alt="Image caméra 1">
             </article>
+            <aside class="product_description">
+                <h2 class="product_description--title">Vcam 1000</h2>
+                <div class="product-description-qte">
+                    <h3 class="product_description-qte-title">Quantité</h3>
+                    <select>
+                        <option>--</option>
+                    </select>
+                </div>
+                <button class="product_description--btn"><span><i class="fas fa-shopping-cart"></i></span>Ajouter au panier</button>
+            </aside>
         </section>
     </main>
     <footer>

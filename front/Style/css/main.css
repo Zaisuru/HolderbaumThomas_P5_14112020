@@ -32,13 +32,50 @@ header h1 {
   height: 300px;
   object-fit: cover;
 }
-#card-container .card .card-description, #card-container .card h3, #card-container .card h4 {
+#card-container .card .card-description {
   margin: 0;
   padding: 5px;
-}
-#card-container .card .card-description .card-description_footer, #card-container .card h3 .card-description_footer, #card-container .card h4 .card-description_footer {
   display: flex;
   justify-content: space-between;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+}
+.top-nav .nav {
+  display: flex;
+  list-style: none;
+}
+.top-nav .nav .nav-list {
+  padding: 15px;
+}
+.top-nav .nav .nav-list a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+.top-nav .nav .nav-list a:hover {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product .product_img img {
+  width: 800px;
+  height: 450px;
+  object-fit: cover;
+}
+.product .product-description-qte {
+  display: flex;
 }
 
 html {

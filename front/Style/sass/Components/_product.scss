@@ -1,0 +1,18 @@
+//Déclaration src
+
+@import "../Utils/variables";
+@import "../Utils/mixin";
+
+.product{
+  display: flex;
+  flex-wrap: wrap;
+
+  .product_img img{
+    width: 800px;
+    height: 450px;
+    object-fit: cover;
+  }
+  .product-description-qte{
+    display: flex;
+  }
+}

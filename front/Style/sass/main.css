@@ -1,3 +1,4 @@
+
 header {
   display: flex;
 }
@@ -47,7 +48,7 @@ html {
 }
 
 body {
-  background: #F3E9F1;
+  background: $fontColor;
 }
 
 /*# sourceMappingURL=main.css.map */

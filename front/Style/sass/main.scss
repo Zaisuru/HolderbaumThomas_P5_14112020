@@ -1,7 +1,12 @@
 // Déclaration des imports
+
+@import "Utils/variables";
 @import "Layout/header";
 @import "Components/cardIndex";
+@import "Layout/navbar";
 
+//Déclaration page produits
+@import "Components/product";
 html{
     margin: 0;
     padding: 0;
