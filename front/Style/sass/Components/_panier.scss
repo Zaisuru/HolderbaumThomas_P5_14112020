@@ -1,0 +1,20 @@
+#panier-container{
+  display: flex;
+  justify-content: space-between;
+
+  #panier-container-list{
+    border: 1px solid black;
+    width: 45%;
+    table{
+      width: 100%;
+    }
+    #recapCommand{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    .btn-command{
+      width: 50%;
+    }
+  }
+}

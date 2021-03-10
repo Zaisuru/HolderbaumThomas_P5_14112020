@@ -6,8 +6,8 @@
     <meta name="description" content="">
 
     <!--Déclaration feuille de style -->
-    <link rel="stylesheet" href="../Style/css/main.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Style/css/main.css" type="text/css">
 </head>
 <body>
 <div id="container">
@@ -18,25 +18,75 @@
         </figure>
         <nav class="top-nav">
             <ul class="nav">
-                <li class="nav-list"><a href="#">Accueil</a></li>
+                <li class="nav-list"><a href="../index.html">Accueil</a></li>
                 <li class="nav-list"><a href="#">Panier</a></li>
                 <li class="nav-list"><a href="#">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <article>
-                <figure>
-                    <img src="">
-                    <figcaption></figcaption>
-                </figure>
+        <section id="panier-container">
+            <article id="panier-container-details">
+                <form>
+                    <h2>Vos coordonnées</h2>
+                    <div id="panier-container-details-name">
+                        <label for="LastName">Prénom</label>
+                        <input id="LastName" type="text" required>
+
+
+                        <label for="FirstName">Nom</label>
+                        <input id="FirstName" type="text" required>
+                    </div>
+
+                    <div>
+                        <label for="Phone">Téléphone</label>
+                        <input id="Phone" type="text">
+
+                        <label for="Email">Email</label>
+                        <input id="Email" type="text">
+                    </div>
+
+                    <div>
+                        <label for="FactAdress">Adresse de facturation</label>
+                        <input id="FactAdress" type="text">
+
+
+                        <label for="LivrAdress">Adresse de livraison</label>
+                        <input id="LivrAdress" type="text">
+                    </div>
+                </form>
             </article>
+            <aside id="panier-container-list">
+                <h2>Votre panier</h2>
+                <table>
+                    <tr>
+                        <td>Désignation</td>
+                        <td>Quantité</td>
+                        <td>Prix</td>
+                        <td>Total</td>
+                    </tr>
+                    <tr>
+                        <td>Vcam1</td>
+                        <td>2</td>
+                        <td>20</td>
+                        <td>40</td>
+                    </tr>
+                </table>
+                <div id="recapCommand">
+                    <h3>Sous-total : </h3>
+                    <h3>TVA : </h3>
+                    <h3>Total à payer : </h3>
+                </div>
+
+                <button class="btn btn-command">Commander</button>
+
+            </aside>
         </section>
     </main>
     <footer>
         <ol>
-            <li></li>
+            <li>Conditions légales</li>
+            <li>Service Après-vente</li>
         </ol>
     </footer>
 </div>

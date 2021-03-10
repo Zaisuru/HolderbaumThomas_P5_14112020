@@ -1,0 +1,11 @@
+// Déclaration src
+
+@import "../Utils/variables";
+@import "../Utils/mixin";
+
+.btn{
+  background: linear-gradient($primaryColor, 60%, $secondaryColor);
+  border: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}

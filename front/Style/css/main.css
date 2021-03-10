@@ -13,6 +13,39 @@ foote {
   flex-direction: row;
 }
 
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 40%;
+}
+.top-nav .nav {
+  display: flex;
+  list-style: none;
+}
+.top-nav .nav .nav-list {
+  padding: 15px;
+}
+.top-nav .nav .nav-list a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+.top-nav .nav .nav-list a:hover {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.btn {
+  background: linear-gradient(#955EED, 60%, #E58A0A);
+  border: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
 #index-card-body {
   display: flex;
   justify-content: center;
@@ -42,32 +75,6 @@ foote {
   padding: 5px;
   display: flex;
   justify-content: space-between;
-}
-
-.top-nav {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  width: 40%;
-}
-.top-nav .nav {
-  display: flex;
-  list-style: none;
-}
-.top-nav .nav .nav-list {
-  padding: 15px;
-}
-.top-nav .nav .nav-list a {
-  text-decoration: none;
-  color: #000000;
-  font-size: 20px;
-}
-.top-nav .nav .nav-list a:hover {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid black;
-  padding: 8px;
 }
 
 .product {
@@ -131,6 +138,35 @@ foote {
 }
 .product .product_description .product_description--btn .fa-shopping-cart {
   display: none;
+}
+
+#panier-container {
+  display: flex;
+  justify-content: space-between;
+}
+#panier-container #panier-container-list {
+  border: 1px solid black;
+  width: 45%;
+}
+#panier-container #panier-container-list table {
+  width: 100%;
+}
+#panier-container #panier-container-list #recapCommand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+#panier-container #panier-container-list .btn-command {
+  width: 50%;
+}
+
+#confirmation-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
