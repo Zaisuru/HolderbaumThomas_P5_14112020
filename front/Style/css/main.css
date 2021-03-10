@@ -8,6 +8,11 @@ header h1 {
   display: none;
 }
 
+foote {
+  display: flex;
+  flex-direction: row;
+}
+
 #index-card-body {
   display: flex;
   justify-content: center;
@@ -67,15 +72,65 @@ header h1 {
 
 .product {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  font-family: "Roboto", sans-serif;
 }
 .product .product_img img {
-  width: 800px;
+  width: 500px;
   height: 450px;
   object-fit: cover;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin: 0 5px 0 5px;
 }
-.product .product-description-qte {
+.product .product_description {
+  border: 1px solid black;
+  width: 30%;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  margin: 0 5px 0 5px;
+}
+.product .product_description .product_description--spec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0 15px 0;
+}
+.product .product_description .product-description-qte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0 15px 0;
+}
+.product .product_description .product-description-qte .product_description-qte-title, .product .product_description .product-description-qte .product_description-qte-select, .product .product_description .product-description-qte .product_description-qte-delete {
+  margin: 0 15px 0 15px;
+}
+.product .product_description .product-description-qte .fa-trash-alt {
+  background-image: linear-gradient(#955EED, 70%, #E58A0A);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.product .product_description .product_description--btn {
+  background: linear-gradient(#955EED, 60%, #E58A0A);
+  border: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  width: 200px;
+  height: 50px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.product .product_description .product_description--btn .fa-shopping-cart {
+  display: none;
 }
 
 html {

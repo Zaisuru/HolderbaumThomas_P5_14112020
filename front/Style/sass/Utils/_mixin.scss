@@ -14,3 +14,7 @@
 @mixin margin ($space){
   margin: $space;
 }
+
+@mixin font-size ($size){
+  font-size: $size;
+}
